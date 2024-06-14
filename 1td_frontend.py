@@ -1,6 +1,7 @@
 import os
 import streamlit as st
 from openai import OpenAI
+from groq import Groq
 from dotenv import load_dotenv
 
 # Laden der Umgebungsvariablen aus der .env-Datei
@@ -8,6 +9,7 @@ load_dotenv()
 
 # Abrufen des API-Schlüssels aus den Umgebungsvariablen
 gpt_4o = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+groq = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
 def get_thank_you_message():
     results = gpt_4o.chat.completions.create(

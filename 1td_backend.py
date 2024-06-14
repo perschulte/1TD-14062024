@@ -10,22 +10,22 @@ load_dotenv()
 
 # Abrufen des OpenAI API-Schlüssels aus den Umgebungsvariablen
 # OpenAI-Instanz mit dem API-Schlüssel initialisieren
-#openai = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+openai = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 groq = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
 # Funktion zum Abschicken der OpenAI-Prompt
 # Diese Funktion sendet eine Anfrage an die OpenAI API und erhält eine Antwort
 def get_openai_response(prompt):
     # Verwenden des GPT-4o-Modells, um eine Antwort auf die gegebene Eingabe (Prompt) zu generieren
-    results = groq.chat.completions.create(
+    results = openai.chat.completions.create(
         messages=[
             {
                 "role": "user",
                 "content": prompt,
             }
         ],
-        #model="gpt-4o", #OpenAI
-        model="llama3-8b-8192", # Groq
+        model="gpt-4o", #OpenAI
+        #model="llama3-8b-8192", # Groq
         max_tokens=200, # Begrenzung der Antwort auf maximal 200 Tokens
         temperature=0.5, # Steuerung der Kreativität der Antwort (0.5 ist ein moderater Wert)
     )

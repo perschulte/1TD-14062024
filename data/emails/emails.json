@@ -1,0 +1,82 @@
+[
+    {
+        "subject": "Urgent: Project Deadline Extended",
+        "body": "Dear Team,\n\nThe deadline for the XYZ project has been extended by two weeks due to unforeseen circumstances. Please adjust your schedules accordingly and prioritize completing the pending tasks.\n\nBest regards,\nProject Manager"
+    },
+    {
+        "subject": "Immediate Attention Required: Security Breach",
+        "body": "Dear IT Team,\n\nWe have detected a security breach in our network. Please investigate immediately and take necessary actions to secure our data.\n\nRegards,\nChief Security Officer"
+    },
+    {
+        "subject": "Emergency Meeting: Financial Crisis",
+        "body": "Dear All,\n\nAn emergency meeting has been scheduled at 3 PM today to discuss the recent financial crisis. Attendance is mandatory for all department heads.\n\nSincerely,\nCEO"
+    },
+    {
+        "subject": "Critical: Server Downtime Notification",
+        "body": "Dear Users,\n\nThe main server will undergo critical maintenance tonight from 10 PM to 2 AM. Please save your work and log off before this time.\n\nThank you,\nIT Support"
+    },
+    {
+        "subject": "Important: Compliance Audit Next Week",
+        "body": "Dear Team,\n\nOur annual compliance audit will take place next week. Please ensure all required documentation is up to date and readily available.\n\nRegards,\nCompliance Officer"
+    },
+    {
+        "subject": "Reminder: Team Building Activity",
+        "body": "Dear Team,\n\nJust a reminder that our team-building activity is scheduled for this Friday at 4 PM. Please RSVP by tomorrow.\n\nBest,\nHR Team"
+    },
+    {
+        "subject": "Follow-Up: Client Feedback",
+        "body": "Hi Team,\n\nPlease review the feedback from our client regarding the recent project delivery and prepare a response by the end of this week.\n\nThanks,\nProject Coordinator"
+    },
+    {
+        "subject": "Monthly Report Submission",
+        "body": "Dear All,\n\nThis is a reminder to submit your monthly reports by the end of this week. Let me know if you have any questions.\n\nRegards,\nTeam Lead"
+    },
+    {
+        "subject": "Update: New Software Version Released",
+        "body": "Hi Everyone,\n\nThe new version of our project management software has been released. Please update your systems by next Monday.\n\nCheers,\nIT Team"
+    },
+    {
+        "subject": "Meeting Rescheduled",
+        "body": "Dear All,\n\nThe marketing meeting originally scheduled for tomorrow has been moved to Thursday at 2 PM. Please update your calendars.\n\nBest,\nMarketing Manager"
+    },
+    {
+        "subject": "Office Renovation Update",
+        "body": "Hi Team,\n\nThe office renovation will begin next month. There will be minimal disruption to our work environment. Further updates will follow.\n\nBest,\nOffice Manager"
+    },
+    {
+        "subject": "Lunch Menu for Next Week",
+        "body": "Hello Everyone,\n\nPlease find attached the lunch menu for next week. Let me know if you have any special dietary requirements.\n\nRegards,\nOffice Admin"
+    },
+    {
+        "subject": "Social Event: Happy Hour",
+        "body": "Hi Team,\n\nJoin us for a happy hour this Friday at 5 PM in the break room. Let's unwind and have some fun!\n\nCheers,\nSocial Committee"
+    },
+    {
+        "subject": "New Employee Introduction",
+        "body": "Dear All,\n\nPlease welcome John Doe, who has joined our team as a software developer. Make sure to introduce yourself and help him get settled.\n\nBest,\nHR Team"
+    },
+    {
+        "subject": "Office Supplies Order",
+        "body": "Hi Team,\n\nWe will be placing an order for office supplies next week. If you need anything specific, please let me know by Friday.\n\nThanks,\nOffice Admin"
+    },
+    {
+        "subject": "Birthday Celebration",
+        "body": "Hello Everyone,\n\nWe will be celebrating Jane's birthday next Wednesday at 3 PM in the break room. Join us for cake and fun!\n\nRegards,\nHR Team"
+    },
+    {
+        "subject": "Parking Lot Maintenance",
+        "body": "Hi Team,\n\nThe parking lot will undergo maintenance this weekend. Please park in the alternative lot on Friday.\n\nThank you,\nFacilities Manager"
+    },
+    {
+        "subject": "Lost and Found",
+        "body": "Dear Team,\n\nA pair of glasses was found in the conference room. If they belong to you, please collect them from the reception.\n\nBest,\nOffice Admin"
+    },
+    {
+        "subject": "Office Plant Care Schedule",
+        "body": "Hi Everyone,\n\nThe schedule for watering the office plants has been updated. Please check the new schedule and ensure the plants are well cared for.\n\nRegards,\nOffice Manager"
+    },
+    {
+        "subject": "Casual Friday Reminder",
+        "body": "Hi Team,\n\nJust a reminder that tomorrow is Casual Friday. Feel free to dress comfortably!\n\nBest,\nHR Team"
+    }
+]
