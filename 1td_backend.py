@@ -42,12 +42,10 @@ app = Flask(__name__)
 @app.route('/api/get_response', methods=['POST'])
 def api_get_response():
     # Extrahieren der JSON-Daten aus der Anfrage
-    data = request.get_json()
-    prompt = data.get('prompt')
-    
-    # Überprüfen, ob die 'prompt'-Daten im JSON vorhanden sind
-    if not prompt:
-        return jsonify({"error": "Prompt is required"}), 400 # 400 Bad Request, wenn kein Prompt vorhanden ist
+    data = request.get_json(silent=True)
+    if not data or 'prompt' not in data:
+        return jsonify({"error": "Prompt is required"}), 400
+    prompt = data['prompt']
 
     try:
         # Aufrufen der Funktion zum Abrufen der OpenAI-Antwort und Rückgabe der Antwort als JSON
