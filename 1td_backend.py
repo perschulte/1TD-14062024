@@ -13,7 +13,7 @@ load_dotenv()
 openai = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 groq = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
-# Funktion zum Abschicken der OpenAI-Prompt
+# Funktion zum Abschicken eines OpenAI-Prompts
 # Diese Funktion sendet eine Anfrage an die OpenAI API und erhält eine Antwort
 def get_openai_response(prompt):
     # Verwenden des GPT-4o-Modells, um eine Antwort auf die gegebene Eingabe (Prompt) zu generieren
