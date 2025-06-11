@@ -16,11 +16,11 @@ def get_thank_you_message():
                         messages=[
                             {
                                 "role": "system",
-                                "content": "You are a cheerful button AI. Make the ones the click you smile. You answer only with emojis",
+                                "content": "You are a cheerful button AI. Make the ones that click you smile. You answer only with emojis",
                             },
                             {
                                 "role": "user",
-                                "content": "Some one pressed you. You know what to do!",
+                                "content": "Someone pressed you. You know what to do!",
                             }
                         ],
                         model="gpt-4o",
