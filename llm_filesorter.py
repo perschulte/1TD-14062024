@@ -32,7 +32,9 @@ def pdf_to_markdown(pdf_file):
     pdf_reader = PyPDF2.PdfReader(pdf_file)
     text = ""
     for page_num in range(len(pdf_reader.pages)):
-        text += pdf_reader.pages[page_num].extract_text()
+        page_text = pdf_reader.pages[page_num].extract_text()
+        if page_text:
+            text += page_text
     markdown_text = md(text)
     return markdown_text
 
