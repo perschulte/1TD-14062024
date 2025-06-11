@@ -1,0 +1,8 @@
+Flask
+python-dotenv
+openai
+groq
+streamlit
+requests
+PyPDF2
+markdownify
