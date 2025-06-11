@@ -1,6 +1,6 @@
 # 1TD-14062024
 
-Dieses Repository enthaelt eine Sammlung einfacher Python-Skripte, die den Einsatz von LLM-APIs demonstrieren. Es gibt ein Flask-Backend, mehrere kleine Streamlit-Oberflaechen und ein Beispiel zum Sortieren von Dateien bzw. E-Mails.
+Dieses Repository enthaelt eine Sammlung einfacher Python-Skripte, die den Einsatz von LLM-APIs demonstrieren. Enthalten sind ein kleines Flask-Backend, einige Streamlit-Oberflaechen sowie ein Beispiel zur Sortierung von Dateien bzw. E-Mails mittels KI.
 
 ## Voraussetzungen
 
@@ -14,6 +14,16 @@ Dieses Repository enthaelt eine Sammlung einfacher Python-Skripte, die den Einsa
 pip install flask streamlit openai groq python-dotenv PyPDF2 markdownify
 ```
 
+### Einrichten der `.env`-Datei
+
+Legen Sie im Projektverzeichnis eine Datei namens `.env` mit folgendem Inhalt an:
+
+```bash
+OPENAI_API_KEY=<Ihr OpenAI-Schluessel>
+# Optionaler Schluessel fuer Groq
+GROQ_API_KEY=<Ihr Groq-Schluessel>
+```
+
 ## Nutzung
 
 ### Backend starten
@@ -22,11 +32,13 @@ pip install flask streamlit openai groq python-dotenv PyPDF2 markdownify
 python 1td_backend.py
 ```
 
-Der Server stellt eine Route `/api/get_response` bereit. Ueber `1td_backend_demo_app.py` kann man darauf zugreifen:
+Der Server stellt eine Route `/api/get_response` bereit. Ueber die folgende Demo-Anwendung laesst sich die API direkt ausprobieren:
 
 ```bash
 streamlit run 1td_backend_demo_app.py
 ```
+
+Die Anwendung sendet den eingegebenen Prompt an das lokale Backend und zeigt die erhaltene Antwort an.
 
 ### Einfaches Frontend
 
@@ -44,7 +56,7 @@ streamlit run 1td_frontend.py
 streamlit run llm_filesorter.py
 ```
 
-Beispieldaten befinden sich im Ordner `data/emails`.
+Beispieldaten befinden sich im Ordner `data/emails`. Die Anwendung konvertiert zunaechst ausgewaehlte PDF-Dateien in Markdown und sortiert diese anschliessend anhand Ihres Prompts.
 
 ## Lizenz
 
